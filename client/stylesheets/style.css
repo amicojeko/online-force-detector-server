@@ -1,0 +1,83 @@
+body {
+  padding-top: 50px;
+  color: #aaa !important;
+  text-shadow:0 0 0 !important;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: #111 !important;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: #111 !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.name {
+  background-color: transparent;
+  line-height: 50px;
+}
+
+.name-input {
+  font-family: 'Roboto', sans-serif !important;
+  height: 50px;
+  border: none !important;
+  background: transparent;
+  color: #aaa;
+  font-size: 14pt;
+}
+
+.fadein{
+  background-color: #999999;
+  -webkit-transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -o-transition: background-color 0.5s linear;
+  transition: background-color 0.5s linear;
+}
+
+.ui-page{
+  display:none !important;
+}
+
+
+
+.row {
+  border-bottom: 1px solid rgb(51, 51, 51) !important;
+  background-color: #222 !important;
+}
+
+.row div{
+  height: 50px;
+  font-size: 14pt;
+}
+
+.row i{
+  height: 50px !important;
+  width: 50px !important;
+}
+
+/*COLOR PICKER*/
+
+.colorpicker-2x {
+  min-width: 250px;
+}
+
+.colorpicker-2x .colorpicker-saturation {
+    width: 200px;
+    height: 200px;
+}
+.colorpicker-2x .colorpicker-hue {
+    width: 30px;
+    height: 200px;
+}
+.colorpicker-2x .colorpicker-alpha {
+  display: none !important;
+  width: 30px;
+  height: 200px;
+}
+.colorpicker-2x .colorpicker-color,
+.colorpicker-2x .colorpicker-color div{
+    height: 30px;
+}

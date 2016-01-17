@@ -1,0 +1,14 @@
+<template name="layout">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="{{pathFor 'friendsList'}}">Online Force Detector Configuration</a>
+     </div>
+
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    {{> yield}}
+  </div>
+</template>
